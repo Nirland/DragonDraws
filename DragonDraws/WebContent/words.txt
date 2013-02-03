@@ -1,0 +1,10 @@
+house
+car
+airplane
+tank
+ship
+bear
+cat
+dog
+robot
+human

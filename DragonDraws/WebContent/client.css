@@ -1,0 +1,272 @@
+div#content{		
+	width: 950px;	
+	margin: 0 auto;
+}
+
+div#dummy{		
+	width: 705px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div#uiheader{
+	width: 630px;
+	height: 32px;
+	margin-bottom: 2px;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 14pt;
+	color: #014691;	
+	vertical-align: center; 	
+}
+
+span#timer{
+	color: #fd0100;	
+}
+
+span#word{
+	color: #fd0100;	
+}
+
+span#gameresult{
+	color: #fd0100;	
+}
+
+div#gameinfo{	 
+	margin-left: 10px;
+	padding: 5px;
+	float:left;				
+}
+
+div#gameend{
+	margin-left: 10px;
+	padding: 5px;
+	float:left;			
+}
+
+div#gameui{
+	margin-right: 15px;
+	float:right;
+}
+
+div#paint{	
+	float: left; 	
+}
+
+div#ui{
+	position: relative;
+	margin-left: 2px;
+	float: left;
+	width: 300px;
+	height: 480px;
+}
+
+div#users{	
+	padding: 0px;
+	width: 296px;
+	height: 135px;
+	overflow: auto;	
+}
+
+div#chat{		 		
+	margin-top: 2px;
+	width: 100%;
+	height: 341px;	 	
+}
+
+div#messages{	
+	padding: 0px;
+	width: 296px;
+	height: 305px;
+	overflow: auto;
+}
+
+div#uinput{		
+	margin-top: 2px;
+	padding: 0px;
+	width: 300px;
+	height: 31px;
+	text-align: center;		
+}
+
+.uiblock{	
+	background-color: #ffffff; 
+	border: solid 2px #014691;	
+	border-radius: 10px;
+	-webkit-border-radius: 10px; 
+ 	-moz-border-radius: 10px;	
+}
+
+table#results{			
+	padding: 0px;
+	margin-top: 2px;
+	border-spacing: 0px;	
+	font-family: Arial;
+	font-size: 14pt;	
+	width: 100%;		
+}
+
+table#results td{				
+	padding: 0px;
+	height: 24px;		
+}
+
+table#results td.drawer{			
+	padding-left: 10px;
+	text-align: right;	
+	vertical-align: middle;
+	width: 15%;	
+}
+
+table#results td.drawer img{	
+	height: 100%;
+}
+
+table#results td.name{
+	text-align: left;
+	vertical-align: middle;
+	width: 60%;
+	font-style: italic;
+}
+
+table#results td.points{
+	text-align: left;
+	vertical-align: middle;
+	width: 25%;
+	font-weight: bold;
+}
+
+.user{
+	color: #014691;
+}
+
+.myself{
+	color: #fd0100;
+}
+
+div#messages div:nth-of-type(2n){
+	background-color: #a8dff7;	
+}
+
+div#messages div:nth-of-type(2n+1){
+	background-color: #d1defa;	
+}
+
+div.message{
+	border-radius: 5px;
+	-webkit-border-radius: 5px; 
+ 	-moz-border-radius: 5px;	
+	font-family: Times New Roman;
+	font-size: 12pt;
+	color: #014691;		
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+span.chattime{
+	font-style: italic;
+}
+
+span.chatname{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#messageInput{
+	padding: 3px;
+	font-family: Times New Roman;
+	font-size: 12pt;	
+	background-color: #a8dff7;
+	color: #014691;			
+ 	height: 22px;
+	width: 290px;	
+	margin: 0px;
+}
+
+#messageInput:focus {
+	background-color: #d1defa;
+	border: 2px solid #fcf0bf;
+}
+
+.newgameBtn {	
+	background-color:#a8dff7;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #014691;
+	display:inline-block;
+	color:#014691;
+	font-family:Arial;
+	font-size:12pt;
+	font-weight:bold;
+	padding:5px 20px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.newgameBtn:hover {
+	background-color:#1e62d0;
+	color:#ffffff;
+	border:1px solid #014691;
+	text-shadow:1px 1px 0px #014691;
+}.newgameBtn:active {
+	position:relative;
+	top:1px;
+}
+
+.saveimageBtn {	
+	background-color:#d1defa;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #014691;
+	display:inline-block;
+	color:#014691;
+	font-family:Arial;
+	font-size:12pt;
+	font-weight:bold;
+	padding:5px 20px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.saveimageBtn:hover {
+	background-color:#1e62d0;
+	color:#ffffff;
+	border:1px solid #014691;
+	text-shadow:1px 1px 0px #014691;
+}
+.saveimageBtn:active {
+	position:relative;
+	top:1px;
+}
+
+div#ping{
+	padding: 2px;
+	margin-left: 8px;
+	font-family:Arial;
+	font-size:12pt;
+	font-weight: bold;
+	color:#014691;
+}
+
+div#preloader{
+	padding: 5px;
+	font-family: Arial;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #014691;
+	width: 500px;
+	margin: 0 auto;
+}
+
+h1#preloader{
+	color:#014691;
+	font-family:Arial;
+	font-size:16pt;
+	font-weight:bold;		
+}
+
+span#usercount{
+	color: #fd0100;
+}
