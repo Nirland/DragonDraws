@@ -1,6 +1,6 @@
 <h1>DragonDraws</h1>
 <h2>Description</h2>
-DragonDraws is a multiplayer painting game based on websockets.<br>
+DragonDraws is a multiplayer drawing game based on websockets.<br>
 Gameplay demostration is shown in this <a href="http://youtube.com">video</a>.<br>
 
 <h2>Downloads</h2>
