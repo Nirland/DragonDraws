@@ -17,7 +17,7 @@ Jetty 8.x<br>
 To run application in Eclipse IDE, you can use Jetty WTP Adaptor plugin.<br>
 If you downloaded completed Jetty package then:<br>
 1. Unpack archive<br>
-2. Port 8080 must be free(you can config this in etc/jetty.xml). Use <b>java -jar start.jar</b> for running server.<br>
+2. Port 8080 must be free(you can config this in etc/jetty.xml). Use <b>java -jar start.jar</b> to run server.<br>
 3. Open browser and go to <a href="http://localhost:8080">http://localhost:8080</a><br>
 
 <h2>Browser support</h2>
