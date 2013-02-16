@@ -1,7 +1,7 @@
 <h1>DragonDraws</h1>
 <h2>Description</h2>
 DragonDraws is a multiplayer drawing game based on websockets.<br>
-Gameplay demostration is shown in this <a href="http://youtube.com">video</a>.<br>
+Gameplay demostration is shown in this <a href="http://www.youtube.com/watch?v=ktgwC0yffdY>video</a>.<br>
 
 <h2>Downloads</h2>
 Download <a href="https://docs.google.com/file/d/0B8J0LS_KpoJweUJ4RmxIVzJTYWM/edit">WAR file</a>.<br>
