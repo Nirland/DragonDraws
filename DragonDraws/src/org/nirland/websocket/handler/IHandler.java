@@ -11,5 +11,5 @@ import org.nirland.websocket.exception.ProtoException;
 
 public interface IHandler {
 	 
-	public void handleIt(Message message) throws ProtoException;
+	void handleIt(Message message) throws ProtoException;
 }
